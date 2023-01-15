@@ -1,0 +1,9 @@
+baseURL = 'https://noalerch.github.io/'
+languageCode = 'en-us'
+enableEmoji = true
+theme = "relearn"
+
+[params]
+title = 'ForsCaps'
+author = "(St)yr"
+
