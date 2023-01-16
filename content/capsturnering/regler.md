@@ -101,4 +101,4 @@ under turneringsformat.
 
 
 
-![Logo](/logo.png)
+![Logo](/images/logo.png)

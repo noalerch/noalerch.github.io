@@ -11,3 +11,5 @@ med ca 4 lag var. Vid brist på deltagare kan vi istället spela ca 5 lag per ri
 ## Slutspel
 I den slutliga ringen spelas caps med samma regler som tidigare. Paret som sitter kvar när alla andra
 åkt ut definieras som den slutgiltiga **vinnaren!**
+
+![Logo](/images/logo.png)

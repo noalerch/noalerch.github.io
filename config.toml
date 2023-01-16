@@ -1,6 +1,7 @@
 baseURL = 'https://noalerch.github.io/'
 languageCode = 'se-sv'
 enableEmoji = true
+canonifyURLs = true
 theme = "hugo-theme-relearn"
 
 [params]
