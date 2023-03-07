@@ -1,6 +1,6 @@
 +++
 archetype = "home"
-title = "(St)yr.no"
+title = "(St)yr.no(a)"
 +++
 
 ## (St)yr och Ställs väderrapport!
