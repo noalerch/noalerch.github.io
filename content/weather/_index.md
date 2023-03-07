@@ -3,7 +3,7 @@ archetype = "home"
 title = "(St)yr.no"
 +++
 
-## (St)yr och Ställs väderraport!
+## (St)yr och Ställs väderrapport!
 
 Hej fina Forskå, här kommer dagens väderrapport!
 
