@@ -5,7 +5,10 @@ canonifyURLs = true
 theme = "hugo-theme-relearn"
 
 [params]
-themeVariant = ["relearn-custom", "relearn-light"]
-title = 'ForsCaps'
-author = "(St)yr"
+themeVariant = ["red", "relearn-custom", "relearn-light"]
+title = 'Noa Lerch'
+author = "Noa Lerch"
+
+[markup.goldmark.renderer]
+    unsafe = true
 
