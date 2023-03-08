@@ -9,7 +9,7 @@ Since time immemorial, man and nature have had an uneasy relationship. An early 
 of wilderness, with great spirit
 and great zeal, secured its existence in spite of the weight of predation and starvation
 on its shoulders. She harnessed the mystical power of fire, she developed the tools, and
-soon, she became not only a user, but a producer, as the great live-giving
+soon, she became not only a user, but a producer, as the great life-giving
 force of agriculture led her to found societies around various rivers. But even there,
 the fear of beast and storm never dissipated—the shadow of Enkidu was ever in the
 mind of the Sumerians.
