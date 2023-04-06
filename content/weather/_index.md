@@ -16,6 +16,11 @@ Resten av veckan ser ut som följande:
 
 <div id="ww_274260e5f1f97" v='1.3' loc='id' a='{"t":"responsive","lang":"sv","sl_lpl":1,"ids":["wl2608"],"font":"Arial","sl_ics":"one","sl_sot":"celsius","cl_bkg":"#D32F2F","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#FFFFFF","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FFFFFF","cl_odd":"#0000000a","sl_tof":"7"}'>Weather Data Source: <a href="https://wetterlabs.de/wetter_uppsala/30_tage/" id="ww_274260e5f1f97_u" target="_blank">Uppsala 30 tage wetter</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_274260e5f1f97"></script>
 
+### (St)yrs vädervisa
+<video autoplay="false" loop="true" src="/videos/vadervisa.mp4" width="840" controls></video>
+
+
+
 
 #### Med vänliga hälsningar,
 
