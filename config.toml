@@ -9,6 +9,16 @@ themeVariant = ["red", "relearn-custom", "relearn-light"]
 title = 'Noa Lerch'
 author = "Noa Lerch"
 
+[params.csp]
+  childsrc = ["'self'"]
+  fontsrc = ["'self'"]
+  formaction = ["'self'"]
+  framesrc = ["'self'"]
+  imgsrc = ["'self'"]
+  objectsrc = ["'none'"]
+  stylesrc = ["'self'"]
+  scriptsrc = ["'self'"]
+
 [markup.goldmark.renderer]
     unsafe = true
 
