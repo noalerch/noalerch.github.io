@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anmälan till the NOA birthday 2023</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Anmälan till the NOA birthday 2023</h1>
+        <div id="signup">
+            <h2>Tryck på knappen för att anmäla närvaro till min födelsedag!</h2>
+
+            <div id="knapp" class="anmal-button" onclick="handleClick()">
+                <div><h2>ANMÄL</h2></div>
+            </div>
+
+            <p style="color: deeppink;position:fixed; bottom:10px">tryck här för att spela musik</p>
+            <audio class="music" controls autoplay id="8bit" style="position:fixed; bottom:0; left:0;">
+                <source src="/audio/8bitboogie.mp3" type="audio/mpeg">
+            </audio >
+            <img src="/images/ooga.jpeg" width=300px style="margin: 25px">
+        </div>
+
+        <div id="hidden">
+            <p style="color:white" >Grattis! Du är nu anmäld till Noas födelsedagsfirande med IP-adress: </p>
+            <h2 id="ip"></h2>
+            <p>Vi ses på söndag!</p>
+            <div class="monkey2" style="position:absolute; left:0">
+                <img src="/images/chimp.png">
+            </div>
+            <div class="monkey3" style="position:absolute; right:0">
+                <img src="/images/chimp.png">
+            </div>
+            <img class="monkey1" src="/images/chimp.png">
+            <h3>Team apa wins again</h3>
+            copyright noa lerch 2023
+        </div>
+
+    </div>
+
+    <audio id="audio" src="../audio/boogie.mp3"></audio>
+    <script>
+        function handleClick() {
+            clear()
+            play()
+            getIP()
+
+            $("#hidden").show()
+
+        }
+
+        function getIP() {
+            $.getJSON("https://api.ipify.org?format=json", function(data) {
+                // Setting text of element P with id gfg
+                $("#ip").html(data.ip);
+            })
+        }
+
+        function showDiv() {
+            document.getElementById("hidden").style.display = "";
+        }
+        function clear() {
+            const display = document.getElementById("signup")
+            display.remove()
+        }
+        function play() {
+            const audio = document.getElementById("audio");
+            audio.play();
+        }
+
+        function stop() {
+            const audio = document.getElementById("audio");
+            audio.stop();
+        }
+    </script>
+
+
+</body>
+</html>
