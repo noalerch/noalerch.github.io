@@ -1,0 +1,96 @@
+body {
+    background-image: url("../images/space.jpg");
+    background-color: powderblue;
+}
+h1 {
+    color: red;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+.container {
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    float: none;
+    display: inline
+}
+
+.music {
+    background-color: deeppink;
+    color: deeppink;
+}
+
+.anmal-button {
+    display: flex;
+    user-select: none;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    border: 5px solid;
+    margin: auto;
+    height: 180px;
+    width: 400px;
+    background-color: red;
+    color: white;
+}
+#knapp:hover {
+    background-color:limegreen;
+}
+#knapp:active {
+    color:darkgray;
+    background-color:green;
+}
+.monkey1 {
+    width: 500px;
+    animation: grow 2s ease-in infinite;
+    animation-iteration-count: 1;
+}
+
+.monkey2 {
+    scale: 50%;
+    animation: spin 3s infinite linear;
+    animation-iteration-count: infinite;
+}
+
+.monkey3 {
+    scale: 50%;
+    animation: spin2 3s infinite linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin2{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes grow {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 500px;
+    }
+}
+
+#hidden {
+    display: none;
+}
+
+#hidden
